@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: beaver-kavita-reader_web_1
+      APP_PORT: 5012
+  web:
+    image: kizaing/kavita:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - "5012:5000"
+    volumes:
+      - ${APP_DATA_DIR}:/manga
+      - ${APP_DATA_DIR}:/comics
+      - ${APP_DATA_DIR}:/books
+      - ${APP_DATA_DIR}:/kavita/config

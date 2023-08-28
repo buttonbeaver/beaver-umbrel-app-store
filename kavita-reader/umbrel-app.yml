@@ -1,0 +1,75 @@
+manifestVersion: 1
+id: beaver-kavita-reader
+category: media
+name: Kavita
+version: "0.7.7"
+tagline: Digital ebook library which supports a vast array of file formats.
+description: >-
+  Lighting fast with a slick design, Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats. Install to start reading and share your server with your friends.
+
+  Features :
+    - Browser your Manga, Comics, and Books
+    - Quickly resume reading from your homepage
+    - Create reading lists and collections
+    - Search your library
+    - Metadata: fully supports all fields from ComicInfo.xml and Epub to provide filtering
+    - Built-in ratings and reviews
+    - Chapter and volume integration and grouping
+    - Rich User-based roles, authentication, and library management
+    - 3 built in Readers:
+        Manga/Comic/Image Reader:
+          - Image Scaling to fit your device screen or override for what feels best to you
+          - Image Splitting for those joined page spreads, don't scroll on your tablet, just split
+          - Fullscreen Mode
+          - Dual page reader mode with optional shadow to emulate reading a book
+          - Reading Direction: Left/Right, Up/Down
+          - Webtoon reader (scrolling) built in
+          - Read across archives without closing the reader
+        Book Reader:
+          - Interactive reader - can interact with text, run javascript and streams pages to the UI
+          - Dark mode persists between page load
+          - Immersive mode, just you and the words
+          - Fullscreen Mode
+          - No scroll mode with virtual pages
+          - Dark, Black or White themes to enjoy on OLED and e-Ink devices
+          - Customize your reading experience with custom Font, Font Size, Margin, Reading Direction, Theme, etc
+          - Table of Content just a click away
+          - Remember line position and resume where you left off, no matter the device
+        PDF Reader:
+          - Dedicated PDF reader to give you the best experience for your PDFs
+          - Offers light/dark mode and many customization options
+    - Extensive File support
+        Manga/Comics: ZIP, RAR, RAR5, CBR, CBZ, CB7, CBT, TAR.GZ, 7ZIP/7Z
+        Books: EPUB2, EPUB3, PDF
+        Raw Images: JPG/JPEG, PNG, WebP, GIF, AVIF
+    - Localization support
+    - Send to Kindle or any email supported device for any user
+    - Rich documentation
+    - Cool statistics abour you and your users reading habbits
+    - Built-in Child accounts: limit age ratings and libraries accounts have access to
+    - Compatible with Paperback, Tachiyomi, and CDisplayEx
+    - Accesibility first: audits for color contrast, screen reader, and keyboard only
+
+releaseNotes: >-
+  - Localization is here! A new language will only appear when both Frontend and Backend localization files exist. If a localization key is missing in a user's locale, English will be the fallback. Note: Some items are not yet localized.
+  - Epub books will now populate weblinks by joining dc:identifier tags with url: values.
+  - Added progress bars on the readme to help motivate users to get all the languages translated.
+  - Updated all fonts to be woff2 which are faster to load and render.
+  
+developer: Kavita
+website: https://kavitareader.com
+dependencies:
+repo: https://github.com/Kareadita/Kavita
+support: https://www.kavitareader.com/#support
+port: 5011
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
+submitter: 
