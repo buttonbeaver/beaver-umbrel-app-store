@@ -3,7 +3,7 @@ id: beaver-ipfs-node
 name: IPFS-Node
 tagline: An IPFS node and UI on your Umbrel!
 icon: https://ipfs.io/ipfs/QmTtCH31LdGV4LjRm5FNmnw6hUwZq1Z1YXtjeNKHBeaRcQ/kubo-logo.png
-category: finance
+category: media
 version: "1.0.0"
 port: 5013
 description: >-
@@ -20,7 +20,6 @@ support: https://github.com/ipfs/kubo/issues
 gallery:
   - https://github.com/ipfs/ipfs-webui/blob/main/docs/screenshots/ipfs-webui-explore.png
   - https://github.com/ipfs/ipfs-webui/blob/main/docs/screenshots/ipfs-webui-files.png
-  - 
 releaseNotes: >-
   See release notes for IPFS Kubo version 0.22.0 here: https://github.com/ipfs/kubo/releases/tag/v0.22.0.
 dependencies: []
