@@ -5,7 +5,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: beaver-ipfs-node_1
+      APP_HOST: beaver-ipfs-node_server_1
       APP_PORT: 5013 
     
   server:
