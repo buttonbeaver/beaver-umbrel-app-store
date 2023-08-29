@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: sparkles-ipfs-node
+id: beavver-ipfs-node
 name: IPFS Node
 tagline: An IPFS node and UI on your Umbrel!
 icon: https://ipfs.io/ipfs/QmTtCH31LdGV4LjRm5FNmnw6hUwZq1Z1YXtjeNKHBeaRcQ/kubo-logo.png
