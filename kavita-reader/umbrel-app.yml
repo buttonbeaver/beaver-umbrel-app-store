@@ -59,7 +59,7 @@ releaseNotes: >-
   
 developer: Kavita
 website: https://kavitareader.com
-dependencies:
+dependencies: []
 repo: https://github.com/Kareadita/Kavita
 support: https://www.kavitareader.com/#support
 port: 5011
