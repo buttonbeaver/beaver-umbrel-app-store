@@ -2,6 +2,7 @@ manifestVersion: 1
 id: beaver-kavita-reader
 category: media
 name: Kavita
+icon: https://www.kavitareader.com/img/logo.png
 version: "0.7.7"
 tagline: Digital ebook library which supports a vast array of file formats.
 description: >-
@@ -63,13 +64,13 @@ repo: https://github.com/Kareadita/Kavita
 support: https://www.kavitareader.com/#support
 port: 5011
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://www.kavitareader.com/img/features/homepage.PNG
+  - https://www.kavitareader.com/img/features/seriesdetail.PNG
 path: ""
 defaultUsername: ""
 defaultPassword: ""
 torOnly: false
 permissions:
   - STORAGE_DOWNLOADS
-submitter: 
+submitter: buttonbeaver
+submission: https://github.com/buttonbeaver/beaver-umbrel-app-store

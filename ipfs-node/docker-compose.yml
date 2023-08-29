@@ -5,10 +5,13 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
+      APP_HOST: beaver-ipfs-node_1
+      APP_PORT: 5013 
     
   server:
-    image: getumbrel/community-app-store-hello-world:latest
+    image: ipfs/kubo:latest
+    ports:
+      - "8082:8080"
+      - "5013:5001"
     user: "1000:1000"
     init: true
