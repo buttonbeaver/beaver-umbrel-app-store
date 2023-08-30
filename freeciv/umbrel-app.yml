@@ -2,7 +2,7 @@ manifestVersion: 1
 id: beaver-freeciv
 category: media
 name: Freeciv
-icon: ./assets/logo.png
+icon: https://github.com/buttonbeaver/images/blob/main/freeciv.png
 version: "3.0.0"
 tagline: Turn based strategy game server based on Civilization 
 description: >-
