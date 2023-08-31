@@ -9,7 +9,7 @@ description: >-
   Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.
   Note: This is the HTML5 version of the game not the WebGL version
 releaseNotes: >-
-  - 3 year old update
+  - 5 year old update
 developer: FreeCiv
 website: https://freeciv.org
 dependencies: []
@@ -17,7 +17,7 @@ repo: https://github.com/freeciv/freeciv-web
 support: https://github.com/freeciv/freeciv-web/issues
 port: 8098
 gallery:
-  - https://freeciv.fandom.com/wiki/File:Freeciv-web-screenshot-2017.jpg
+  - https://i.imgur.com/87l9EWJ.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
