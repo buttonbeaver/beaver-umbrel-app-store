@@ -4,13 +4,13 @@ services:
   app_proxy:
     environment:
       APP_HOST: beaver-freeciv_web_1
-      APP_PORT: 5012
+      APP_PORT: 8034
   web:
     image: ctron/freeciv-web:3.0
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - "8098:80"
+      - "8034:80"
       - "4002:4002"
       - "6000-6009:6000-6009"
       - "7000-7009:7000-7009"
