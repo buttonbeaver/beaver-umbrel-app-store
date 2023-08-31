@@ -15,7 +15,7 @@ website: https://freeciv.org
 dependencies: []
 repo: https://github.com/freeciv/freeciv-web
 support: https://github.com/freeciv/freeciv-web/issues
-port: 9271
+port: 8080
 gallery:
   - https://i.imgur.com/87l9EWJ.png
 path: ""
