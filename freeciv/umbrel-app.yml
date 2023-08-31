@@ -3,7 +3,7 @@ id: beaver-free-civ
 category: media
 name: Freeciv
 icon: https://i.imgur.com/CzEyFPZ.png
-version: "3.0.0"
+version: "0.1.1"
 tagline: Turn based strategy game server based on Civilization 
 description: >-
   Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.
