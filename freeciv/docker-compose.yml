@@ -6,7 +6,7 @@ services:
       APP_HOST: beaver-freeciv_web_1
       APP_PORT: 5012
   web:
-    image: freeciv/freeciv-web:latest
+    image: ctron/freeciv-web:3.0
     restart: on-failure
     stop_grace_period: 1m
     ports:
