@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: beaver-freeciv_web_1
-      APP_PORT: 9271
+      APP_PORT: 5013
   web:
     image: ctron/freeciv-web:3.0
     restart: on-failure
