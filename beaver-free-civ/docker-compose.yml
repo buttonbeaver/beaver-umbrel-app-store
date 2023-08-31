@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: beaver-freeciv_web_1
+      APP_HOST: beaver-free-civ_web_1
       APP_PORT: 9271
   web:
     image: ctron/freeciv-web:3.0
