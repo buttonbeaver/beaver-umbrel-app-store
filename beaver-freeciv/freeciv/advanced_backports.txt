@@ -1,0 +1,20 @@
+As of 12-Nov-21,
+current baseline of the https://github.com/freeciv/freeciv used by FCW is commit
+2e2ce4b7a5b38c0915add67ccb974b1fa96f8add
+
+------------------------------------------------------------------------------
+
+This is a list of what is backported in advance of the convergence backporting
+commits being done by cazfi:
+
+Keep the list sorted by the order they were committed to upstream Freeciv.
+Commit is the commit ID hash in the upstream Freeciv git repository.
+Commit Date is NOT the author date (that GitHub shows) but the date it was committed.
+Completeness Comment is an explanation of what was changed and/or is missing.
+
+Commit                                   Commit Date         Completeness Comment
+c67cb82f51ef5034cc361738ab8ae74946374262 2020-06-13 11:43:44 Unchanged and complete
+5f5aad1b8cc6d2fea720e260f8c47944b696f32e 2020-06-13 11:43:44 Unchanged and complete
+d8a54ddb6a5ac083c400411a3dd456267d0ac17f 2021-05-13          Adjusted, but complete
+cedd5f7a5af8a10445f01b09bd91794e0126101d 2021-07-04 09:41:02 Unchanged and complete
+PATCH https://osdn.net/projects/freeciv/ticket/42600 - 2021-09-22 . Couldn't find commit for it yet

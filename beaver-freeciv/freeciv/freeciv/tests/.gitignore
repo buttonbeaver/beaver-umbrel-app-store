@@ -1,0 +1,6 @@
+/Makefile
+/Makefile.in
+/.deps
+/check-output
+/rulesets_not_broken.sh
+/rulesets_save.sh

@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: beaver-freeciv
+category: media
+name: Freeciv
+icon: https://i.imgur.com/CzEyFPZ.png
+version: "0.1.1"
+tagline: Turn based strategy game server based on Civilization 
+description: >-
+  Freeciv is a Free and Open Source empire-building strategy game inspired by the history of human civilization.
+  Note: This is the HTML5 version of the game not the WebGL version
+releaseNotes: >-
+  - tacticsandtriumphs.com version
+developer: FreeCiv
+website: https://freeciv.org
+dependencies: []
+repo: https://github.com/freeciv/freeciv-web
+support: https://github.com/freeciv/freeciv-web/issues
+port: 8031
+gallery:
+  - https://i.imgur.com/87l9EWJ.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+permissions:
+  - STORAGE_DOWNLOADS
+submitter: buttonbeaver
+submission: https://github.com/buttonbeaver/beaver-umbrel-app-store
