@@ -6,7 +6,7 @@ services:
       APP_PORT: 8031
   freeciv-web:
     image: freeciv/freeciv-web
-    build: .
+    build: ./
     container_name: fcw.org
     command: ["sleep", "infinity"]
     volumes:
