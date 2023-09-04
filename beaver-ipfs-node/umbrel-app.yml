@@ -5,7 +5,7 @@ name: IPFS
 tagline: An IPFS node and UI on your Umbrel!
 icon: https://ipfs.io/ipfs/QmTtCH31LdGV4LjRm5FNmnw6hUwZq1Z1YXtjeNKHBeaRcQ/kubo-logo.png
 version: "0.22.0"
-port: 5031
+port: 5030
 description: >-
   A peer-to-peer hypermedia protocol 
   designed to preserve and grow humanity's knowledge 
