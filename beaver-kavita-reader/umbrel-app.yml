@@ -62,7 +62,7 @@ website: https://kavitareader.com
 dependencies: []
 repo: https://github.com/Kareadita/Kavita
 support: https://www.kavitareader.com/#support
-port: 5011
+port: 5012
 gallery:
   - https://www.kavitareader.com/img/features/homepage.PNG
   - https://www.kavitareader.com/img/features/seriesdetail.PNG
