@@ -5,12 +5,12 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: beaver-ipfs-node_server_1
-      APP_PORT: 5016 
+      APP_PORT: 5031
   server:
     image: ipfs/kubo:latest
     ports:
       - "8086:8080"
-      - "5016:5001"
+      - "5031:5001"
     user: "1000:1000"
     init: true
     volumes:
