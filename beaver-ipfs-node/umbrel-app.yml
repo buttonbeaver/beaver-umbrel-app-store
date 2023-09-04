@@ -1,16 +1,17 @@
 manifestVersion: 1
 id: beaver-ipfs-node
-name: IPFS-Node
+category: media
+name: IPFS
 tagline: An IPFS node and UI on your Umbrel!
 icon: https://ipfs.io/ipfs/QmTtCH31LdGV4LjRm5FNmnw6hUwZq1Z1YXtjeNKHBeaRcQ/kubo-logo.png
-category: media
-version: "1.0.0"
+version: "0.22.0"
 port: 5016
 description: >-
   A peer-to-peer hypermedia protocol 
-designed to preserve and grow humanity's knowledge 
-by making the web upgradeable, resilient, and more open.
+  designed to preserve and grow humanity's knowledge 
+  by making the web upgradeable, resilient, and more open.
 
+  IMPORTANT When you install this app you have to go to the settings page in the webui (umbrel.local:5016/webui) and change the "Gateway" address in IPFS Config from 8080 to 8086
 developer: IPFS
 website: https://ipfs.io
 submitter: buttonbeaver

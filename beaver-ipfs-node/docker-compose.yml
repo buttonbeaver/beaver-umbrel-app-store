@@ -1,13 +1,11 @@
 version: "3.7"
 
 services:
-
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: beaver-ipfs-node_server_1
       APP_PORT: 5016 
-    
   server:
     image: ipfs/kubo:latest
     ports:
@@ -15,3 +13,5 @@ services:
       - "5016:5001"
     user: "1000:1000"
     init: true
+    volumes:
+      - ./setup.sh:/container-init.d/setup.sh
