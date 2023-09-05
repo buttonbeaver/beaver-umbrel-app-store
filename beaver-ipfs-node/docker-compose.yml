@@ -14,4 +14,4 @@ services:
     user: "1000:1000"
     init: true
     volumes:
-      - ./setup.sh:/container-init.d/setup.sh
+      - ${APP_DATA_DIR}/setup.sh:/container-init.d/setup.sh
